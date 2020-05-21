@@ -47,13 +47,13 @@ class AuthActivity : AppCompatActivity(), ListAdapter.AdapterCallback {
 
 
 
-        list_recycler_view.apply {
-            // set a LinearLayoutManager to handle Android
-            // RecyclerView behavior
-            layoutManager = LinearLayoutManager(this@AuthActivity)
-            // set the custom adapter to the RecyclerView
-            adapter = ListAdapter(mUserData, this@AuthActivity)
-        }
+//        list_recycler_view.apply {
+//            // set a LinearLayoutManager to handle Android
+//            // RecyclerView behavior
+//            layoutManager = LinearLayoutManager(this@AuthActivity)
+//            // set the custom adapter to the RecyclerView
+//            adapter = ListAdapter(mUserData, this@AuthActivity)
+//        }
 
 
     }
